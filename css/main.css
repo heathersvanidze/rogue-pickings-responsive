@@ -47,18 +47,21 @@ p {
 /*The widths are in a percentage!*/
 header {
 	
-	border-bottom: 3px solid #77a466;
+	border-bottom: 0.1875em solid #77a466;
 	margin: 0 auto;
 	display: flex;
   	justify-content: center;
   	align-items: center;
+	text-align:center;
 	flex-flow: row wrap;
+	width:100%;
 }
 
 header h1 {
 	
 	margin: 0;
-	padding: 38px 0;
+	padding: 1em 0;
+	width:100%;
 }
 header h1 span {
 	color: #77a466;
@@ -66,18 +69,19 @@ header h1 span {
 
 header nav {
 	
-	padding: 46px 0;
+	padding: 0 0 1em 0;
+	width:100%;
 }
 header nav ul {
 	margin: 0;
 	padding: 0;
+	list-style:none;
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 0.875em;
-	padding: 0 10px;
-	display: inline;
+	padding: 1em 10px;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -120,7 +124,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
 }
@@ -164,10 +168,8 @@ footer {
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	text-align: center;
-	display: flex;
-  	justify-content: center;
-  	align-items: center;
-	flex-flow: row wrap;
+	text-align:center;
+	width:100%;
 }
 footer span {
 	font-family: 'Galada', cursive;

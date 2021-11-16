@@ -30,6 +30,8 @@ h3 {
 }
 h1 {
 	font-size: 1.875em;
+	border-bottom: 0.1875em solid #77a466;
+	padding-bottom: 0.1875em;
 }
 h2 {
 	font-size: 1.125em;
@@ -69,7 +71,7 @@ header h1 span {
 
 header nav {
 	
-	padding: 0 0 1em 0;
+	padding: 1em 0 1em 0;
 	width:100%;
 }
 header nav ul {
@@ -134,13 +136,13 @@ header nav ul li a{
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	
 }
 
 .section-two h3,
 .section-three h3 {
 	padding: 10px 30px;
+	text-align: center;
 }
 
 .menu {
@@ -156,11 +158,13 @@ header nav ul li a{
 	color: #333;
 	font-size: 1em;
 	line-height: 21px;
+	text-align: center;
 }
 
 .address {
 	font-size: 1em;
 	line-height: 24px;
+	text-align: center;
 }
 
 /*The widths are in a percentage!*/

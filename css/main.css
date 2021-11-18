@@ -99,6 +99,11 @@ header nav ul li a{
   	align-items: center;
 	flex-flow: row wrap;
 }
+.bottom-section h3,
+.bottom-section p {
+	text-align: left;
+	padding-left: 0.875em;
+}
 
 .main-image {
 	height: auto;
@@ -129,25 +134,23 @@ header nav ul li a{
 	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
-}
-
-.section-one h3 {
-	padding: 10px 0;
-}
-
-.section-two {
 	
 }
 
+.section-one h3 {
+	text-align:left;
+	padding-left: 0.875em;
+}
+
+
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
-	text-align: center;
+	text-align: left;
 }
 
 .menu {
 	list-style: none;
-	padding: 0;
+	padding-left: 0.875em;
 }
 .menu li {
 	padding: 10px 0;
@@ -180,4 +183,27 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.875em;
+}
+
+@media all and (min-width:768px) {
+	/*Tablet styles here*/
+
+	.bottom-section {
+		justify-content: center;
+		border-top: 0.1875em solid #eee;
+	}
+	.section-one,
+	.section-two,
+	.section-three {
+		justify-content: space-between;
+		align-items: flex-start;
+		flex-flow: row wrap;
+		width:30%;
+		border-top: none;
+	}
+	.section-two {
+		border-left:0.1875em solid #eee; 
+		border-right: 0.1875em solid #eee;
+		padding: 0.1875em;
+	}
 }
